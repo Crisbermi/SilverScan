@@ -102,7 +102,7 @@
         
         /* Sección principal */
         .main-content {
-            margin-top: 120px;
+            /* margin-top: 120px; */ /* Removed, handled by main tag padding-top in styles.css */
             padding: 60px 0;
         }
         
@@ -198,7 +198,7 @@
             color: #666;
         }
         
-        .checkbox-group a {
+        .checkbox-group a { /* This will be changed to span, but keeping 'a' style for now if it has specific styling */
             color: var(--color-primary);
             text-decoration: underline;
         }
@@ -248,12 +248,12 @@
             margin-bottom: 10px;
         }
         
-        .footer-column a {
+        .footer-column a, .footer-column span { /* Added .footer-column span for consistent styling */
             color: #ccc;
             transition: color 0.3s;
         }
         
-        .footer-column a:hover {
+        .footer-column a:hover, .footer-column span:hover { /* Added :hover for span if needed, though spans don't have hover by default */
             color: var(--color-primary);
         }
         
@@ -266,58 +266,19 @@
             color: #999;
         }
         
-        .footer-bottom a {
+        .footer-bottom .legal-links span { /* Style for spans in legal-links */
             color: #ccc;
             margin: 0 10px;
         }
-        
-        /* Estilos responsivos */
-        @media (max-width: 992px) {
-            .contact-section {
-                grid-template-columns: 1fr;
-            }
-            
-            .contact-image {
-                order: -1;
-            }
-        }
-        
-        @media (max-width: 768px) {
-            .header-container {
-                flex-direction: column;
-            }
-            
-            .nav-menu {
-                margin-top: 20px;
-                flex-wrap: wrap;
-                justify-content: center;
-            }
-            
-            .nav-menu li {
-                margin: 5px 10px;
-            }
-            
-            .main-content {
-                margin-top: 180px;
-            }
-            
-            .page-title {
-                font-size: 2.5rem;
-            }
-            
-            .footer-container {
-                grid-template-columns: 1fr;
-            }
-        }
     </style>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="container header-container">
             <div class="logo">
                 <a href="index.html">
-                    <img src="logosilverscan.jpg"/200x200?text=Silver+Scan" alt="SilverScan">
+                    <img src="logosilverscan.jpg" alt="SilverScan - Especialistas en perfiles Sénior">
                 </a>
             </div>
             
@@ -327,7 +288,7 @@
                 <li><a href="hacemos.html">¿Qué hacemos?</a></li>
                 <li><a href="como.html">¿Cómo lo hacemos?</a></li>
                 <li><a href="hablemos.html">Hablemos</a></li>
-                <li><a href="suscribete.html" class="btn-suscribete">Suscríbete</a></li>
+                <li><a href="index.html#suscribete" class="btn-suscribete">Suscríbete</a></li>
             </ul>
         </div>
     </header>
@@ -339,7 +300,7 @@
             
             <div class="contact-section">
                 <div class="contact-image">
-                    <img src="marketingsegmentación.png"/600x700" alt="Contacta con nosotros">
+                    <img src="marketingsegmentación.png" alt="Contacta con nosotros">
                 </div>
                 
                 <div class="contact-form-container">
@@ -369,7 +330,7 @@
                         
                         <div class="checkbox-group">
                             <input type="checkbox" id="privacy" name="privacy" required>
-                            <label for="privacy">Acepto la <a href="#">política de privacidad</a></label>
+                            <label for="privacy">Acepto la <span style="color: var(--color-primary); text-decoration: underline; cursor: pointer;">política de privacidad</span></label>
                         </div>
                         
                         <button type="submit" class="submit-button">Enviar</button>
@@ -396,36 +357,33 @@
                 <div class="footer-column">
                     <h3>Casos de éxito</h3>
                     <ul>
-                        <li><a href="#">Investigación de mercado y segmentación</a></li>
-                        <li><a href="#">Salud, bienestar y seguros</a></li>
-                        <li><a href="#">Silver Economy, vivienda y turismo</a></li>
-                        <li><a href="#">Formación, empleo y talento sénior</a></li>
-                        <li><a href="#">Marketing y comunicación</a></li>
-                        <li><a href="#">Marketing y comunicación</a></li>
-                        <li><a href="#">Prevención del desgaste y abandono</a></li>
-                        <li><a href="#">Diseño de planes de formación adaptados</a></li>
-                        <li><a href="#">Simulación de impacto de políticas de diversidad generacional</a></li>
-                        <li><a href="#">Auditoría de edadismo interno</a></li>
-                        <li><a href="#">Optimización de paquetes de salida o transición a jubilación</a></li>
-                        <li><a href="#"> Diseño de programas de salud laboral personalizados</a></li>
+                        <li><span>Investigación de mercado y segmentación</span></li>
+                        <li><span>Salud, bienestar y seguros</span></li>
+                        <li><span>Silver Economy, vivienda y turismo</span></li>
+                        <li><span>Formación, empleo y talento sénior</span></li>
+                        <li><span>Marketing y comunicación</span></li>
+                        <li><span>Marketing y comunicación</span></li>
+                        <li><span>Prevención del desgaste y abandono</span></li>
+                        <li><span>Diseño de planes de formación adaptados</span></li>
+                        <li><span>Simulación de impacto de políticas de diversidad generacional</span></li>
+                        <li><span>Auditoría de edadismo interno</span></li>
+                        <li><span>Optimización de paquetes de salida o transición a jubilación</span></li>
+                        <li><span> Diseño de programas de salud laboral personalizados</span></li>
                     </ul>
                 </div>
                 
                 <div class="footer-column">
                     <h3>Silver Scan</h3>
-                    <p>SilverScan es una plataforma de inteligencia artificial experta en perfiles mayores de 50 años.  Creamos usuarios sintéticos y gemelos digitales para ayudar a empresas, instituciones y marcas a entender, segmentar y diseñar mejores productos, servicios y políticas adaptadas a la nueva longevidad.
-
-</p>
-
+                    <p>SilverScan es una plataforma de inteligencia artificial experta en perfiles mayores de 50 años.  Creamos usuarios sintéticos y gemelos digitales para ayudar a empresas, instituciones y marcas a entender, segmentar y diseñar mejores productos, servicios y políticas adaptadas a la nueva longevidad.</p>
                 </div>
             </div>
             
             <div class="footer-bottom">
                 <p>| Todos los Derechos Reservados |</p>
                 <div class="legal-links">
-                    <a href="#">Política de Privacidad</a>
-                    <a href="#">Aviso legal</a>
-                    <a href="#">Política de cookies</a>
+                    <span>Política de Privacidad</span>
+                    <span>Aviso legal</span>
+                    <span>Política de cookies</span>
                 </div>
             </div>
         </div>
