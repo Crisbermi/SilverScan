@@ -188,7 +188,7 @@ img {
 .menu-toggle span {
     width: 25px;
     height: 3px;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #000000;
     margin-bottom: 5px;
     border-radius: 2px;
     transition: all 0.3s ease;
