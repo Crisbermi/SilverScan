@@ -487,6 +487,7 @@ img {
         align-items: center;
         padding-top: 30px;
         transition: left 0.3s ease;
+        display: flex;
     }
     
     .nav-links.active {
