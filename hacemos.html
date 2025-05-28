@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qué Hacemos - SilverScan</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@300;400;600&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Aviso de cookies -->
+    <div class="cookie-banner" id="cookieBanner">
+        <p>Usamos cookies para asegurar que te damos la mejor experiencia en nuestra web. Si continúas usando este sitio, asumiremos que estás de acuerdo con ello.</p>
+        <button id="acceptCookies" class="btn-primary">Aceptar</button>
+    </div>
+
+    <!-- Header y Navegación -->
+    <header class="header" style="position: fixed; top: 0; left: 0; width: 100%; z-index: 1000;"> 
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="logosilverscan.jpg" class="logo-img">
+                    <p class="subtitle"></p>
+                </a>
+            </div>
+
+            <nav class="main-nav">
+                <div class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-links" id="navLinks">
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="somos.html">¿Quiénes Somos?</a></li>
+    <li><a href="hacemos.html">¿Qué hacemos?</a></li>
+    <li><a href="como.html">¿Cómo lo hacemos?</a></li>
+    <li><a href="hablemos.html">Hablemos</a></li>
+    <li><a href="index.html#suscribete" class="btn-subscribe">Suscríbete</a></li>
+</ul>
+
+            </nav>
+        </div>
+    </header>
+
+    <!-- Qué Hacemos Hero Section -->
+    <section class="que-hacemos-hero" id="hacemos" style="margin-top: 250px;">
+        <div class="container">
+            <h1 class="page-title">¿Qué Hacemos?</h1>
+            <p class="hero-description">Creamos usuarios sintéticos y gemelos digitales para entender mejor a las personas Sénior y ayudar a empresas e instituciones a desarrollar productos y servicios adaptados a sus necesidades reales.</p>
+        </div>
+    </section>
+
+    <!-- Contenido Principal -->
+    <section class="que-hacemos-content">
+        <div class="container">
+            <div class="services-intro">
+                <h2>Nuestros Servicios</h2>
+                <p>En SilverScan utilizamos tecnología avanzada de inteligencia artificial para crear representaciones virtuales de personas mayores de 50 años con diferentes perfiles, características y necesidades. Esto nos permite ofrecer una amplia gama de servicios adaptados a diversos sectores y objetivos.</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>USER RESEARCH</h3>
+                    <div class="service-details">
+                        <p><strong>Entrevistas simuladas:</strong> en lugar de reclutar personas reales, se interactúa con usuarios generados por IA que responden como un perfil definido (por ejemplo, "mujer de 68 años, viuda, rural, con problemas de movilidad").</p>
+                        <p><strong>Encuestas automáticas:</strong> se ejecutan encuestas a decenas o cientos de usuarios sintéticos para obtener insights rápidos.</p>
+                        <p><strong>Validación de hipótesis:</strong> se testean ideas, problemas o soluciones conversando con estos usuarios.</p>
+                        <p><strong>Mapas de empatía y personas:</strong> se generan arquetipos realistas automáticamente.</p>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <h3>DISEÑO DE PRODUCTO, UX/UI</h3>
+                    <div class="service-details">
+                        <p><strong>Test de conceptos:</strong> ver cómo distintos tipos de usuarios reaccionarían ante una nueva funcionalidad o interfaz.</p>
+                        <p><strong>Evaluación de mensajes:</strong> comparar cómo distintos segmentos (cosmopolitas, urbanitas, rurales, digitales...) interpretan el mismo copy.</p>
+                        <p><strong>Personalización de experiencias:</strong> diseñar recorridos de usuario adaptados a diferentes perfiles, simulando su comportamiento.</p>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>MARKETING Y SEGMENTACIÓN</h3>
+                    <div class="service-details">
+                        <p><strong>Creación de buyer personas:</strong> perfilar clientes ideales a partir de datos y comportamientos simulados.</p>
+                        <p><strong>Simulación de campañas:</strong> ver cómo distintos perfiles reaccionarían ante una campaña antes de lanzarla.</p>
+                        <p><strong>Análisis de sensibilidad:</strong> qué argumentos, canales o formatos conectan mejor con cada perfil.</p>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>DESARROLLO DE IA Y AGENTES CONVERSACIONALES</h3>
+                    <div class="service-details">
+                        <p><strong>Entrenamiento de asistentes virtuales:</strong> probando cómo se comportan con distintos tipos de usuarios.</p>
+                        <p><strong>Detección de sesgos:</strong> validando si los modelos responden de forma discriminatoria o incoherente ante ciertos grupos.</p>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>APLICACIONES ÉTICAS E INCLUSIVAS</h3>
+                    <div class="service-details">
+                        <p><strong>Incluir voces que no suelen participar en estudios:</strong> como personas mayores, dependientes, sin acceso digital o que viven en zonas rurales.</p>
+                        <p><strong>Simular situaciones delicadas:</strong> como duelos, salud mental, discriminación, sin dañar a nadie real.</p>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-plus-circle"></i>
+                    </div>
+                    <h3>OTROS CASOS DE USO</h3>
+                    <div class="service-details">
+                        <p>Cuéntanos cual es objetivo y haremos un plan a medida para tí y tu empresa.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        
+    <!-- Sección CTA -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>¿Listo para entender mejor a tu público senior?</h2>
+            <p>Descubre cómo nuestros usuarios sintéticos pueden ayudarte a desarrollar productos y servicios más adaptados y efectivos.</p>
+            <a href="index.html#hablemos" class="btn-primary">Hablemos</a><p></p><p></p><p></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>SilverScan</h2>
+                    <p>Sígueme también en redes sociales:</p>
+                    <div class="social-links">
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-nav">
+                    <h3>Menu</h3>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="quienes-somos.html">¿Quienes Somos?</a></li>
+                        <li><a href="#">¿Qué hacemos?</a></li>
+                        <li><a href="index.html#como">¿Cómo lo hacemos?</a></li>
+                        <li><a href="index.html#hablemos">Hablemos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-categories">
+                    <h3>Casos de éxito</h3>
+                    <ul>
+                        <li><a href="#">Investigación de mercado y segmentación</a></li>
+                        <li><a href="#">Salud, bienestar y seguros</a></li>
+                        <li><a href="#">Silver Economy, vivienda y turismo</a></li>
+                        <li><a href="#">Formación, empleo y talento sénior</a></li>
+                        <li><a href="#">Marketing y comunicación</a></li>
+                        <li><a href="#">Marketing y comunicación</a></li>
+                        <li><a href="#">Prevención del desgaste y abandono</a></li>
+                        <li><a href="#">Diseño de planes de formación adaptados</a></li>
+                        <li><a href="#">Simulación de impacto de políticas de diversidad generacional</a></li>
+                        <li><a href="#">Auditoría de edadismo interno</a></li>
+                        <li><a href="#">Optimización de paquetes de salida o transición a jubilación</a></li>
+                        <li><a href="#"> Diseño de programas de salud laboral personalizados</a></li>
+                    </ul>
+                </div>
+                <div class="footer-initiatives">
+                    <h3>Silver Scan</h3>
+                    <p>SilverScan es una plataforma de inteligencia artificial experta en perfiles mayores de 50 años. Creamos usuarios sintéticos y gemelos digitales para ayudar a empresas, instituciones y marcas a entender, segmentar y diseñar mejores productos, servicios y políticas adaptadas a la nueva longevidad.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="legal-links">
+                    <a href="#">Política de Privacidad</a>
+                    <a href="#">Aviso legal</a>
+                    <a href="#">Política de cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

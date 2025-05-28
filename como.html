@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cómo lo Hacemos - SilverScan</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@300;400;600&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Aviso de cookies -->
+    <div class="cookie-banner" id="cookieBanner">
+        <p>Usamos cookies para asegurar que te damos la mejor experiencia en nuestra web. Si continúas usando este sitio, asumiremos que estás de acuerdo con ello.</p>
+        <button id="acceptCookies" class="btn-primary">Aceptar</button>
+    </div>
+
+    <!-- Header y Navegación -->
+    <header class="header" style="position: fixed; top: 0; left: 0; width: 100%; z-index: 1000;"> 
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="logosilverscan.jpg" class="logo-img">
+                    <p class="subtitle"></p>
+                </a>
+            </div>
+
+            <nav class="main-nav">
+                <div class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-links" id="navLinks">
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="somos.html">¿Quiénes Somos?</a></li>
+    <li><a href="hacemos.html">¿Qué hacemos?</a></li>
+    <li><a href="como.html">¿Cómo lo hacemos?</a></li>
+    <li><a href="hablemos.html">Hablemos</a></li>
+    <li><a href="index.html#suscribete" class="btn-subscribe">Suscríbete</a></li>
+</ul>
+
+            </nav>
+        </div>
+    </header>
+
+    <!-- Cómo lo Hacemos Hero Section -->
+    <section class="como-lo-hacemos-hero" id="como"style="margin-top: 250px;">
+        <div class="container">
+            <h1 class="page-title">¿Cómo lo Hacemos?</h1>
+            <p class="hero-description">Nuestra metodología combina inteligencia artificial avanzada, investigación gerontológica y diseño centrado en el usuario para crear representaciones precisas y útiles de personas mayores de 50 años.</p>
+        </div>
+    </section>
+
+    <!-- Contenido Principal -->
+    <section class="como-lo-hacemos-content">
+        <div class="container">
+            <div class="methodology-intro">
+                <h2>Nuestra Metodología</h2>
+                <p>En SilverScan hemos desarrollado un enfoque único que nos permite generar usuarios sintéticos que representan fielmente la diversidad del segmento senior. Nuestra metodología se basa en años de investigación, miles de datos reales y algoritmos de IA especialmente entrenados para comprender las complejidades de este grupo demográfico.</p>
+            </div>
+
+            <div class="methodology-detailed">
+                <div class="methodology-phase">
+                    <div class="phase-number">01</div>
+                    <div class="phase-content">
+                        <h3>Investigación y Recopilación de Datos</h3>
+                        <p>El primer paso de nuestro proceso consiste en una exhaustiva investigación y recopilación de datos sobre el segmento objetivo:</p>
+                        <ul>
+                            <li><strong>Análisis demográfico:</strong> Estudiamos datos poblacionales, tendencias de envejecimiento, distribución geográfica y otras variables demográficas relevantes.</li>
+                            <li><strong>Investigación cualitativa:</strong> Realizamos entrevistas en profundidad, grupos focales y observaciones etnográficas con personas reales del segmento objetivo.</li>
+                            <li><strong>Análisis de comportamiento digital:</strong> Examinamos patrones de uso de tecnología, preferencias de consumo de medios y comportamientos online.</li>
+                            <li><strong>Revisión de literatura científica:</strong> Incorporamos los últimos hallazgos en gerontología, psicología del envejecimiento y sociología.</li>
+                            <li><strong>Colaboración con expertos:</strong> Trabajamos con especialistas en envejecimiento, diseño inclusivo y accesibilidad.</li>
+                        </ul>
+                        <p>Esta fase nos proporciona una base sólida de conocimiento sobre las características, necesidades, comportamientos y preferencias reales de las personas mayores de 50 años en toda su diversidad.</p>
+                    </div>
+                </div>
+
+                <div class="methodology-phase">
+                    <div class="phase-number">02</div>
+                    <div class="phase-content">
+                        <h3>Modelado y Segmentación</h3>
+                        <p>A partir de los datos recopilados, desarrollamos modelos detallados que capturan la diversidad del segmento senior:</p>
+                        <ul>
+                            <li><strong>Identificación de variables clave:</strong> Determinamos qué factores tienen mayor impacto en las actitudes, comportamientos y necesidades (edad, nivel educativo, alfabetización digital, estado de salud, situación familiar, etc.).</li>
+                            <li><strong>Creación de arquetipos:</strong> Desarrollamos perfiles base que representan diferentes combinaciones de estas variables.</li>
+                            <li><strong>Segmentación multidimensional:</strong> Vamos más allá de la edad cronológica para considerar factores como la edad cognitiva, funcional y social.</li>
+                            <li><strong>Mapeo de trayectorias vitales:</strong> Incorporamos experiencias pasadas y expectativas futuras que influyen en las decisiones y comportamientos actuales.</li>
+                            <li><strong>Análisis de interseccionalidad:</strong> Consideramos cómo diferentes factores (género, nivel socioeconómico, origen cultural) interactúan y se influyen mutuamente.</li>
+                        </ul>
+                        <p>Este enfoque nos permite crear una taxonomía rica y matizada de perfiles que refleja la verdadera heterogeneidad del segmento senior, evitando simplificaciones y estereotipos.</p>
+                    </div>
+                </div>
+
+                <div class="methodology-phase">
+                    <div class="phase-number">03</div>
+                    <div class="phase-content">
+                        <h3>Entrenamiento de Modelos de IA</h3>
+                        <p>Utilizamos técnicas avanzadas de inteligencia artificial para crear modelos capaces de generar y simular usuarios sintéticos:</p>
+                        <ul>
+                            <li><strong>Modelos de lenguaje especializados:</strong> Entrenamos modelos de procesamiento de lenguaje natural específicamente optimizados para capturar los matices del habla y expresión escrita de diferentes perfiles de personas mayores.</li>
+                            <li><strong>Redes generativas adversarias (GANs):</strong> Empleamos estas redes para crear representaciones visuales realistas cuando es necesario.</li>
+                            <li><strong>Modelos de comportamiento predictivo:</strong> Desarrollamos algoritmos que pueden predecir cómo diferentes perfiles reaccionarían ante diversos estímulos, productos o servicios.</li>
+                            <li><strong>Sistemas de razonamiento causal:</strong> Implementamos modelos que comprenden las relaciones causa-efecto en las decisiones y comportamientos.</li>
+                            <li><strong>Aprendizaje por refuerzo:</strong> Utilizamos técnicas que permiten a nuestros modelos mejorar continuamente a partir de nuevos datos y feedback.</li>
+                        </ul>
+                        <p>Nuestros modelos de IA están diseñados con un enfoque ético, priorizando la privacidad, evitando sesgos y asegurando que las representaciones sean respetuosas y realistas.</p>
+                    </div>
+                </div>
+
+                <div class="methodology-phase">
+                    <div class="phase-number">04</div>
+                    <div class="phase-content">
+                        <h3>Generación de Usuarios Sintéticos</h3>
+                        <p>Creamos usuarios sintéticos completos y coherentes que representan perfiles específicos:</p>
+                        <ul>
+                            <li><strong>Definición de perfiles objetivo:</strong> Trabajamos con nuestros clientes para identificar los segmentos específicos que necesitan comprender mejor.</li>
+                            <li><strong>Generación de identidades:</strong> Creamos usuarios virtuales con historias de vida, personalidades, valores, preferencias y comportamientos coherentes.</li>
+                            <li><strong>Validación de coherencia:</strong> Aseguramos que cada aspecto del usuario sintético (desde sus opiniones hasta sus hábitos) sea internamente consistente y realista.</li>
+                            <li><strong>Calibración con datos reales:</strong> Comparamos las respuestas y comportamientos de nuestros usuarios sintéticos con datos de personas reales para garantizar su representatividad.</li>
+                            <li><strong>Diversificación controlada:</strong> Generamos múltiples variaciones dentro de cada perfil para capturar la diversidad natural que existe incluso dentro de segmentos específicos.</li>
+                        </ul>
+                        <p>El resultado son usuarios sintéticos que "piensan", "sienten" y "actúan" de manera coherente con el perfil que representan, permitiendo interacciones realistas y reveladores.</p>
+                    </div>
+                </div>
+
+                <div class="methodology-phase">
+                    <div class="phase-number">05</div>
+                    <div class="phase-content">
+                        <h3>Aplicación y Simulación</h3>
+                        <p>Utilizamos los usuarios sintéticos para simular interacciones y obtener insights valiosos:</p>
+                        <ul>
+                            <li><strong>Entrevistas simuladas:</strong> Conversaciones en profundidad con usuarios sintéticos para explorar actitudes, necesidades y preferencias.</li>
+                            <li><strong>Pruebas de concepto:</strong> Presentamos productos, servicios o comunicaciones a los usuarios sintéticos para evaluar su recepción.</li>
+                            <li><strong>Simulación de customer journey:</strong> Recreamos el recorrido completo del cliente para identificar puntos de fricción y oportunidades de mejora.</li>
+                            <li><strong>Análisis de escenarios:</strong> Evaluamos cómo diferentes perfiles reaccionarían ante diversos escenarios o cambios en productos/servicios.</li>
+                            <li><strong>Generación de insights a escala:</strong> Realizamos cientos o miles de simulaciones para identificar patrones y tendencias significativas.</li>
+                        </ul>
+                        <p>Esta fase nos permite obtener información detallada y matizada sobre cómo diferentes perfiles de personas mayores interactuarían con productos, servicios o comunicaciones específicas.</p>
+                    </div>
+                </div>
+
+                <div class="methodology-phase">
+                    <div class="phase-number">06</div>
+                    <div class="phase-content">
+                        <h3>Análisis y Generación de Insights</h3>
+                        <p>Procesamos los resultados de las simulaciones para extraer conocimientos accionables:</p>
+                        <ul>
+                            <li><strong>Análisis cuantitativo:</strong> Identificamos patrones estadísticos y tendencias en las respuestas y comportamientos simulados.</li>
+                            <li><strong>Análisis cualitativo:</strong> Examinamos en profundidad las razones, motivaciones y contextos detrás de las respuestas.</li>
+                            <li><strong>Segmentación avanzada:</strong> Descubrimos subsegmentos y nichos con necesidades o preferencias específicas.</li>
+                            <li><strong>Identificación de oportunidades:</strong> Detectamos necesidades no satisfechas y áreas de mejora en productos o servicios existentes.</li>
+                            <li><strong>Validación cruzada:</strong> Contrastamos los insights generados con datos del mundo real para confirmar su validez.</li>
+                        </ul>
+                        <p>Transformamos datos complejos en insights claros y accionables que nuestros clientes pueden utilizar para tomar decisiones informadas.</p>
+                    </div>
+                </div>
+
+                <div class="methodology-phase">
+                    <div class="phase-number">07</div>
+                    <div class="phase-content">
+                        <h3>Recomendaciones y Aplicación Práctica</h3>
+                        <p>Finalmente, traducimos los insights en recomendaciones concretas y aplicables:</p>
+                        <ul>
+                            <li><strong>Estrategias de segmentación:</strong> Guías para dirigirse eficazmente a diferentes subsegmentos del público senior.</li>
+                            <li><strong>Optimización de productos/servicios:</strong> Recomendaciones específicas para adaptar ofertas a las necesidades de diferentes perfiles.</li>
+                            <li><strong>Mejora de comunicaciones:</strong> Pautas para crear mensajes que resuenen con distintos segmentos de personas mayores.</li>
+                            <li><strong>Diseño de experiencias:</strong> Directrices para crear experiencias de usuario inclusivas y adaptadas.</li>
+                            <li><strong>Roadmap de implementación:</strong> Plan paso a paso para aplicar las recomendaciones de manera efectiva.</li>
+                        </ul>
+                        <p>Nuestro objetivo final es proporcionar a nuestros clientes no solo insights valiosos, sino también un camino claro para implementarlos y generar impacto real.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="methodology-advantages">
+                <h2>Ventajas de Nuestra Metodología</h2>
+                <div class="advantages-grid">
+                    <div class="advantage-item">
+                        <div class="advantage-icon">
+                            <i class="fas fa-tachometer-alt"></i>
+                        </div>
+                        <h3>Rapidez y Eficiencia</h3>
+                        <p>Obtenemos insights en días o semanas, no meses, permitiendo iteraciones rápidas y toma de decisiones ágil.</p>
+                    </div>
+                    <div class="advantage-item">
+                        <div class="advantage-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Escalabilidad</h3>
+                        <p>Podemos generar cientos o miles de interacciones simuladas, proporcionando datos estadísticamente significativos.</p>
+                    </div>
+                    <div class="advantage-item">
+                        <div class="advantage-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Inclusividad</h3>
+                        <p>Representamos perfiles diversos, incluyendo aquellos que suelen estar subrepresentados en la investigación tradicional.</p>
+                    </div>
+                    <div class="advantage-item">
+                        <div class="advantage-icon">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <h3>Ética y Privacidad</h3>
+                        <p>Evitamos exponer a personas reales a situaciones potencialmente sensibles o estresantes.</p>
+                    </div>
+                    <div class="advantage-item">
+                        <div class="advantage-icon">
+                            <i class="fas fa-sync-alt"></i>
+                        </div>
+                        <h3>Iteración Continua</h3>
+                        <p>Podemos probar múltiples variaciones e iterar rápidamente sin fatiga de los participantes.</p>
+                    </div>
+                    <div class="advantage-item">
+                        <div class="advantage-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h3>Descubrimiento de Insights Inesperados</h3>
+                        <p>Nuestros modelos pueden revelar patrones y conexiones que podrían pasar desapercibidos en métodos tradicionales.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Tecnología -->
+    <section class="technology-section">
+        <div class="container">
+            <h2>Nuestra Tecnología</h2>
+            <div class="technology-content">
+                <div class="technology-text">
+                    <p>En SilverScan utilizamos tecnologías de vanguardia para crear y aplicar nuestros usuarios sintéticos:</p>
+                    <ul>
+                        <li><strong>Modelos de lenguaje de gran escala (LLMs):</strong> Adaptados y optimizados específicamente para representar la diversidad lingüística y cognitiva del segmento senior.</li>
+                        <li><strong>Aprendizaje profundo (Deep Learning):</strong> Redes neuronales complejas que capturan patrones sutiles en comportamientos y preferencias.</li>
+                        <li><strong>Sistemas de razonamiento causal:</strong> Algoritmos que comprenden las relaciones causa-efecto en las decisiones y comportamientos humanos.</li>
+                        <li><strong>Plataforma de simulación multiagente:</strong> Entorno que permite simular interacciones complejas entre múltiples usuarios sintéticos y sistemas.</li>
+                        <li><strong>Herramientas de visualización avanzada:</strong> Interfaces que transforman datos complejos en visualizaciones claras e intuitivas.</li>
+                    </ul>
+                    <p>Nuestra infraestructura tecnológica está en constante evolución, incorporando los últimos avances en inteligencia artificial y ciencia de datos para mejorar continuamente la precisión y utilidad de nuestros usuarios sintéticos.</p>
+                </div>
+                <div class="technology-image">
+                    <img src="C:\Users\Cristina\Documents\SilverScan2\agentes.png"/600x400" alt="Tecnología SilverScan">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Garantía de Calidad -->
+    <section class="quality-assurance">
+        <div class="container">
+            <h2>Garantía de Calidad</h2>
+            <p class="quality-intro">Nos comprometemos a proporcionar insights precisos, útiles y éticos. Para ello, implementamos rigurosos procesos de garantía de calidad:</p>
+            <div class="quality-grid">
+                <div class="quality-item">
+                    <h3>Validación con Datos Reales</h3>
+                    <p>Comparamos regularmente las respuestas de nuestros usuarios sintéticos con datos de personas reales para asegurar su representatividad y precisión.</p>
+                </div>
+                <div class="quality-item">
+                    <h3>Revisión por Expertos</h3>
+                    <p>Colaboramos con gerontólogos, psicólogos y otros especialistas que validan la autenticidad de nuestros modelos desde una perspectiva científica.</p>
+                </div>
+                <div class="quality-item">
+                    <h3>Detección y Mitigación de Sesgos</h3>
+                    <p>Implementamos procesos sistemáticos para identificar y corregir posibles sesgos en nuestros modelos, asegurando representaciones justas y equilibradas.</p>
+                </div>
+                <div class="quality-item">
+                    <h3>Transparencia Metodológica</h3>
+                    <p>Compartimos abiertamente nuestros métodos y limitaciones, permitiendo a nuestros clientes entender completamente cómo se generan los insights.</p>
+                </div>
+                <div class="quality-item">
+                    <h3>Mejora Continua</h3>
+                    <p>Incorporamos constantemente nuevos datos, feedback y avances tecnológicos para refinar y mejorar nuestros modelos y metodologías.</p>
+                </div>
+                <div class="quality-item">
+                    <h3>Auditorías Éticas</h3>
+                    <p>Sometemos nuestros procesos y aplicaciones a revisiones éticas regulares para asegurar que respetan la dignidad y diversidad de las personas que representamos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección CTA -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>¿Quieres conocer más sobre nuestra metodología?</h2>
+            <p>Podemos ofrecerte una demostración personalizada de cómo nuestros usuarios sintéticos pueden ayudarte a entender mejor a tu público senior.</p>
+            <a href="index.html#hablemos" class="btn-primary">Solicitar Demostración</a><p></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>SilverScan</h2>
+                    <p>Sígueme también en redes sociales:</p>
+                    <div class="social-links">
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-nav">
+                    <h3>Menu</h3>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="quienes-somos.html">¿Quienes Somos?</a></li>
+                        <li><a href="que-hacemos.html">¿Qué hacemos?</a></li>
+                        <li><a href="#">¿Cómo lo hacemos?</a></li>
+                        <li><a href="index.html#hablemos">Hablemos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-categories">
+                    <h3>Casos de éxito</h3>
+                    <ul>
+                        <li><a href="#">Investigación de mercado y segmentación</a></li>
+                        <li><a href="#">Salud, bienestar y seguros</a></li>
+                        <li><a href="#">Silver Economy, vivienda y turismo</a></li>
+                        <li><a href="#">Formación, empleo y talento sénior</a></li>
+                        <li><a href="#">Marketing y comunicación</a></li>
+                        <li><a href="#">Marketing y comunicación</a></li>
+                        <li><a href="#">Prevención del desgaste y abandono</a></li>
+                        <li><a href="#">Diseño de planes de formación adaptados</a></li>
+                        <li><a href="#">Simulación de impacto de políticas de diversidad generacional</a></li>
+                        <li><a href="#">Auditoría de edadismo interno</a></li>
+                        <li><a href="#">Optimización de paquetes de salida o transición a jubilación</a></li>
+                        <li><a href="#"> Diseño de programas de salud laboral personalizados</a></li>
+                    </ul>
+                </div>
+                <div class="footer-initiatives">
+                    <h3>Silver Scan</h3>
+                    <p>SilverScan es una plataforma de inteligencia artificial experta en perfiles mayores de 50 años. Creamos usuarios sintéticos y gemelos digitales para ayudar a empresas, instituciones y marcas a entender, segmentar y diseñar mejores productos, servicios y políticas adaptadas a la nueva longevidad.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="legal-links">
+                    <a href="#">Política de Privacidad</a>
+                    <a href="#">Aviso legal</a>
+                    <a href="#">Política de cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
